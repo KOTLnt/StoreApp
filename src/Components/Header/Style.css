@@ -1,0 +1,110 @@
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-weight: 500;
+    background-color: var(--white-color);    
+}
+
+.nav_bar ul {
+    display: flex;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    list-style: none;
+}
+.nav_bar ul :hover {
+    text-decoration: none;
+}
+
+.nav_bar a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+.nav_bar a {
+    text-decoration: none;
+}
+
+.nav_bar i {
+    margin: 2px;
+}
+
+
+.header_bar {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-evenly;
+}
+
+.Search_Bar {
+    width: 50%;
+}
+
+.Notification {
+    cursor: pointer;
+}
+
+.Hidden_Support {
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    top: 23px;
+    right: 80px;
+    background-color: white;
+    z-index: 1;
+    display: block;
+}
+
+
+/*tablet*/
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    .nav_bar {
+        padding: 0px;
+    }
+    .header_bar {
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Logo {
+        width: 80%;
+    }
+
+}
+/*mobile*/
+@media only screen and (max-width: 46.1875em) {
+    .nav_bar {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        font-size: small;
+    }
+
+    .nav_bar a {
+        padding: 0px;
+        margin: 0px 5px;
+    }
+    .nav_left span {
+        display: none;
+    } 
+
+    .header_bar {
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Logo {
+        width: 40%;
+    }
+
+}
+

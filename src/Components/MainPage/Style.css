@@ -1,0 +1,115 @@
+.Top {
+    width: 100%;
+    height: 240px;
+    margin-top: 50px;
+
+}
+
+.Main_Banner {
+    margin-left: 100px;
+    background: white;
+    float: left;
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Carousel_Banner {
+    border: 5px solid white;
+    height: 240px;
+}
+
+.UserInformation {
+    align-items: center;
+    margin-right: 100px;
+    background: white;
+    float: right;
+    width: 25%;
+    border-radius: 30px;
+    height: 240px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.User_Details {
+    display: flex;
+    text-align: center;
+    height: 240px;
+    background-color: whitesmoke;
+    border: 10px solid white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.User_Details img {
+    height: 100px;
+    margin-left: 20px;
+    -webkit-border-top-left-radius: 1px;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+
+    -moz-border-radius-top-left: 1px;
+    -moz-border-radius-top-right: 2px;
+    -moz-border-radius-bottom-right: 3px;
+    -moz-border-radius-bottom-left: 4px;
+
+  border-top-left-radius: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 4px;
+}
+
+.Information {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
+.User_Details ul li {
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.User_Details i {
+    font-size: 25px;
+}
+
+.User_Details p {
+    font-size: medium;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Banner_1 {
+    background: url("../IMG/Banner_1.png");
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+.Banner_2 {
+    background: url("../IMG/Banner_2.png");
+    height: 230px;
+    background-repeat:no-repeat;
+}
+.Banner_3 {
+    background: url("../IMG/Banner_3.png");
+    height: 230px;
+    background-repeat:no-repeat;
+}
+.Banner_4 {
+    background: url("../IMG/Banner_4.png");   
+    background-repeat:no-repeat;
+    height: 230px;
+}
+
+
+
+
+
+
